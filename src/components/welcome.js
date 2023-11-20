@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from 'react-bootstrap';
 import Image from '../images/main-video-img.jpg.png';
 
+
 const style = {
   backgroundColor: "rgba(255, 238, 252, 1)",
   justifyContent: "center",
@@ -9,7 +10,8 @@ const style = {
 };
 
 //default function
-export default function welcome () {
+export default function Welcome() {
+    return(
   <div>
   <div className='container-fluid' style={style}>
     <div className='row'>
@@ -38,5 +40,5 @@ export default function welcome () {
   </div>
   </div>
 
-  };
+  )};
   
