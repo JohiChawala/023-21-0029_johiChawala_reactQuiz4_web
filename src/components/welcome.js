@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
-import Image from './main-video-img.jpg.png';
+import Image from '../images/main-video-img.jpg.png';
 
 const style = {
   backgroundColor: "rgba(255, 238, 252, 1)",
@@ -37,9 +37,6 @@ export default function welcome () {
     </div>
   </div>
   </div>
-
-
-
 
   };
   

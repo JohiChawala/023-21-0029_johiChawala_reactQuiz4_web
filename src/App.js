@@ -1,12 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavbarHead.js';
-import Welcome from './components/welcome.js';
+import Welcome from './components/Welcome.js';
 
 function App() {
   return (
-    <Navbar/>
-    <Welcome/>
+    <>
+      <Navbar/>
+      <Welcome />
+    </>
+    
   );
 }
 
