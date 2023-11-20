@@ -32,6 +32,7 @@ const NavbarHead = () => {
       </Navbar.Collapse>
     </Container>
   </Navbar>
+  
   )
 }
 
